@@ -18,6 +18,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.whiteColor;
     
+    //如果要测试水平方向布局，注意collectionView的frame要做修改。高度要适配
     UICollectionViewFlowLayout *layout = [[self.layoutClass alloc]init];
     layout.minimumLineSpacing = 10;
     layout.minimumInteritemSpacing = 10;
